@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		107A9AE71D31240400291754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107A9AE61D31240400291754 /* AppDelegate.swift */; };
+		107A9AE91D31240400291754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107A9AE81D31240400291754 /* ViewController.swift */; };
+		107A9AEC1D31240400291754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107A9AEA1D31240400291754 /* Main.storyboard */; };
+		107A9AEE1D31240400291754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107A9AED1D31240400291754 /* Assets.xcassets */; };
+		107A9AF11D31240400291754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107A9AEF1D31240400291754 /* LaunchScreen.storyboard */; };
+		107A9AFC1D31240400291754 /* enums_uglyCarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107A9AFB1D31240400291754 /* enums_uglyCarsTests.swift */; };
+		107A9B071D31240400291754 /* enums_uglyCarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107A9B061D31240400291754 /* enums_uglyCarsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		107A9AF81D31240400291754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 107A9ADB1D31240400291754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107A9AE21D31240400291754;
+			remoteInfo = "enums&uglyCars";
+		};
+		107A9B031D31240400291754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 107A9ADB1D31240400291754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107A9AE21D31240400291754;
+			remoteInfo = "enums&uglyCars";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107A9AE31D31240400291754 /* enums&uglyCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "enums&uglyCars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107A9AE61D31240400291754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		107A9AE81D31240400291754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		107A9AEB1D31240400291754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		107A9AED1D31240400291754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		107A9AF01D31240400291754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		107A9AF21D31240400291754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107A9AF71D31240400291754 /* enums&uglyCarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "enums&uglyCarsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107A9AFB1D31240400291754 /* enums_uglyCarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums_uglyCarsTests.swift; sourceTree = "<group>"; };
+		107A9AFD1D31240400291754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107A9B021D31240400291754 /* enums&uglyCarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "enums&uglyCarsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107A9B061D31240400291754 /* enums_uglyCarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums_uglyCarsUITests.swift; sourceTree = "<group>"; };
+		107A9B081D31240400291754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107A9AE01D31240400291754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107A9AF41D31240400291754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107A9AFF1D31240400291754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107A9ADA1D31240400291754 = {
+			isa = PBXGroup;
+			children = (
+				107A9AE51D31240400291754 /* enums&uglyCars */,
+				107A9AFA1D31240400291754 /* enums&uglyCarsTests */,
+				107A9B051D31240400291754 /* enums&uglyCarsUITests */,
+				107A9AE41D31240400291754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		107A9AE41D31240400291754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				107A9AE31D31240400291754 /* enums&uglyCars.app */,
+				107A9AF71D31240400291754 /* enums&uglyCarsTests.xctest */,
+				107A9B021D31240400291754 /* enums&uglyCarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		107A9AE51D31240400291754 /* enums&uglyCars */ = {
+			isa = PBXGroup;
+			children = (
+				107A9AE61D31240400291754 /* AppDelegate.swift */,
+				107A9AE81D31240400291754 /* ViewController.swift */,
+				107A9AEA1D31240400291754 /* Main.storyboard */,
+				107A9AED1D31240400291754 /* Assets.xcassets */,
+				107A9AEF1D31240400291754 /* LaunchScreen.storyboard */,
+				107A9AF21D31240400291754 /* Info.plist */,
+			);
+			path = "enums&uglyCars";
+			sourceTree = "<group>";
+		};
+		107A9AFA1D31240400291754 /* enums&uglyCarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				107A9AFB1D31240400291754 /* enums_uglyCarsTests.swift */,
+				107A9AFD1D31240400291754 /* Info.plist */,
+			);
+			path = "enums&uglyCarsTests";
+			sourceTree = "<group>";
+		};
+		107A9B051D31240400291754 /* enums&uglyCarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				107A9B061D31240400291754 /* enums_uglyCarsUITests.swift */,
+				107A9B081D31240400291754 /* Info.plist */,
+			);
+			path = "enums&uglyCarsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		107A9AE21D31240400291754 /* enums&uglyCars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107A9B0B1D31240400291754 /* Build configuration list for PBXNativeTarget "enums&uglyCars" */;
+			buildPhases = (
+				107A9ADF1D31240400291754 /* Sources */,
+				107A9AE01D31240400291754 /* Frameworks */,
+				107A9AE11D31240400291754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "enums&uglyCars";
+			productName = "enums&uglyCars";
+			productReference = 107A9AE31D31240400291754 /* enums&uglyCars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		107A9AF61D31240400291754 /* enums&uglyCarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107A9B0E1D31240400291754 /* Build configuration list for PBXNativeTarget "enums&uglyCarsTests" */;
+			buildPhases = (
+				107A9AF31D31240400291754 /* Sources */,
+				107A9AF41D31240400291754 /* Frameworks */,
+				107A9AF51D31240400291754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107A9AF91D31240400291754 /* PBXTargetDependency */,
+			);
+			name = "enums&uglyCarsTests";
+			productName = "enums&uglyCarsTests";
+			productReference = 107A9AF71D31240400291754 /* enums&uglyCarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		107A9B011D31240400291754 /* enums&uglyCarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107A9B111D31240400291754 /* Build configuration list for PBXNativeTarget "enums&uglyCarsUITests" */;
+			buildPhases = (
+				107A9AFE1D31240400291754 /* Sources */,
+				107A9AFF1D31240400291754 /* Frameworks */,
+				107A9B001D31240400291754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107A9B041D31240400291754 /* PBXTargetDependency */,
+			);
+			name = "enums&uglyCarsUITests";
+			productName = "enums&uglyCarsUITests";
+			productReference = 107A9B021D31240400291754 /* enums&uglyCarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		107A9ADB1D31240400291754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "marvin evins";
+				TargetAttributes = {
+					107A9AE21D31240400291754 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					107A9AF61D31240400291754 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 107A9AE21D31240400291754;
+					};
+					107A9B011D31240400291754 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 107A9AE21D31240400291754;
+					};
+				};
+			};
+			buildConfigurationList = 107A9ADE1D31240400291754 /* Build configuration list for PBXProject "enums&uglyCars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 107A9ADA1D31240400291754;
+			productRefGroup = 107A9AE41D31240400291754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				107A9AE21D31240400291754 /* enums&uglyCars */,
+				107A9AF61D31240400291754 /* enums&uglyCarsTests */,
+				107A9B011D31240400291754 /* enums&uglyCarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		107A9AE11D31240400291754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107A9AF11D31240400291754 /* LaunchScreen.storyboard in Resources */,
+				107A9AEE1D31240400291754 /* Assets.xcassets in Resources */,
+				107A9AEC1D31240400291754 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107A9AF51D31240400291754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107A9B001D31240400291754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		107A9ADF1D31240400291754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107A9AE91D31240400291754 /* ViewController.swift in Sources */,
+				107A9AE71D31240400291754 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107A9AF31D31240400291754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107A9AFC1D31240400291754 /* enums_uglyCarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107A9AFE1D31240400291754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107A9B071D31240400291754 /* enums_uglyCarsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		107A9AF91D31240400291754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 107A9AE21D31240400291754 /* enums&uglyCars */;
+			targetProxy = 107A9AF81D31240400291754 /* PBXContainerItemProxy */;
+		};
+		107A9B041D31240400291754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 107A9AE21D31240400291754 /* enums&uglyCars */;
+			targetProxy = 107A9B031D31240400291754 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		107A9AEA1D31240400291754 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107A9AEB1D31240400291754 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		107A9AEF1D31240400291754 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107A9AF01D31240400291754 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		107A9B091D31240400291754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		107A9B0A1D31240400291754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		107A9B0C1D31240400291754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "enums&uglyCars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "udevdesign.com.enums-uglyCars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		107A9B0D1D31240400291754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "enums&uglyCars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "udevdesign.com.enums-uglyCars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		107A9B0F1D31240400291754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "enums&uglyCarsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "udevdesign.com.enums-uglyCarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/enums&uglyCars.app/enums&uglyCars";
+			};
+			name = Debug;
+		};
+		107A9B101D31240400291754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "enums&uglyCarsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "udevdesign.com.enums-uglyCarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/enums&uglyCars.app/enums&uglyCars";
+			};
+			name = Release;
+		};
+		107A9B121D31240400291754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "enums&uglyCarsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "udevdesign.com.enums-uglyCarsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "enums&uglyCars";
+			};
+			name = Debug;
+		};
+		107A9B131D31240400291754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "enums&uglyCarsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "udevdesign.com.enums-uglyCarsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "enums&uglyCars";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		107A9ADE1D31240400291754 /* Build configuration list for PBXProject "enums&uglyCars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107A9B091D31240400291754 /* Debug */,
+				107A9B0A1D31240400291754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		107A9B0B1D31240400291754 /* Build configuration list for PBXNativeTarget "enums&uglyCars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107A9B0C1D31240400291754 /* Debug */,
+				107A9B0D1D31240400291754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		107A9B0E1D31240400291754 /* Build configuration list for PBXNativeTarget "enums&uglyCarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107A9B0F1D31240400291754 /* Debug */,
+				107A9B101D31240400291754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		107A9B111D31240400291754 /* Build configuration list for PBXNativeTarget "enums&uglyCarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107A9B121D31240400291754 /* Debug */,
+				107A9B131D31240400291754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 107A9ADB1D31240400291754 /* Project object */;
+}
